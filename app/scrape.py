@@ -11,7 +11,7 @@ print(search_params)
 components = []
 urls = []
 search_headers = {'Authorization': 'Bearer {}'.format(
-    "AAAAAAAAAAAAAAAAAAAAAAmGLAEAAAAAit2rzF59k9wutYrehJuTnV39p%2Bg%3DVlV0Yi7Y8XANo5KqimjqQU8KQzyvcbvDYBgkEVq27V67vtqKMa")}
+    <Bearer Token>)}
 url = "https://api.twitter.com/2/tweets/search/recent?query={}&expansions=author_id&user.fields=username&max_results=20".format(
     search_params)
 
