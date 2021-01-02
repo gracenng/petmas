@@ -1,3 +1,4 @@
+# Create sql database and sql server
 terraform {
   required_providers {
     azurerm = {
@@ -21,8 +22,8 @@ resource "azurerm_sql_database" "petmasdb" {
 resource "azurerm_sql_server" "petmas-server"{
   name                = "petmas-server"
   resource_group_name = "Grace"
-  administrator_login = "dnnnguye@uwaterloo.ca"
-  administrator__login_password="Water123!"
+  administrator_login = "<REDACTED>"
+  administrator__login_password="<REDACTED>!"
   location            = "East US"
   version             = "15.0"
 }
