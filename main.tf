@@ -23,7 +23,7 @@ resource "azurerm_sql_server" "petmas-server"{
   name                = "petmas-server"
   resource_group_name = "Grace"
   administrator_login = "<REDACTED>"
-  administrator__login_password="<REDACTED>!"
+  administrator__login_password="<REDACTED>"
   location            = "East US"
   version             = "15.0"
 }
