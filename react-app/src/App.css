@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  background-color: "";
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.title {
+  font-family: "Fredoka One";
+  font-size: 600%;
+  text-align: center;
+}
+
+body {
+  background-color: #425951;
+  color: white;
+  padding: 1%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.logo {
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  /* margin: auto; */
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: 500;
+  padding: 5%;
+}
+a:visited {
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+
+.description {
+  border-radius: 25px;
+  background: white;
+  /* display: flex;
+  justify-content: center; */
+  margin: auto;
+  text-align: center;
+  /* margi: 5%; */
+  width: 40%;
+  height: 20%;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
