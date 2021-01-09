@@ -1,5 +1,5 @@
-# This is an alternative method to acquire the desired HTML in which I assembled the HTML myself with the Tweet links. Compared to scrape.py where I used Selenium to scrape the
-# HTML block from publish.twitter.com, this method is faster, more reliable and yeild the same end results.
+# This is an alternative method to acquire the desired HTML in which I assembled the HTML myself with the Tweet links. Compared to scrape.py where 
+# I used Selenium to scrape the HTML block from publish.twitter.com, this method is faster, more reliable and yeild the same end results.
 
 import requests
 import urllib
