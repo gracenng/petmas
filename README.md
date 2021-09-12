@@ -8,3 +8,6 @@ Tech stack:
 - Data: Selenium and Twitter API
 
 Demo: https://www.youtube.com/watch?v=vzbWrAY2muI&feature=youtu.be&ab_channel=GraceNguyen
+
+![image](https://user-images.githubusercontent.com/42276283/133001214-a9da0141-8371-4692-b540-24bddc1476cd.png)
+
